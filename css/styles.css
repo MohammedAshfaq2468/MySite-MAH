@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  background:linear-gradient(35deg,rgb(218 230 242) 28%, rgb(203 168 229) 60%, rgb(22 181 181)75%);
 }
 
 p {
