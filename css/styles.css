@@ -405,3 +405,13 @@ tbody>:nth-child(2) {
     background-size: 650%;
   }
 }
+
+
+.social-icon{
+  margin:2%;
+  transform: scale(1.5);
+}
+
+.social-icon:hover{
+  transform: scale(2.5);
+}
