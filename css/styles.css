@@ -412,11 +412,6 @@ tbody>:nth-child(2) {
   }
 }
 
-
-.social-icon{
-  margin:2%;
-}
-
 .social-icon:hover{
-  transform: scale(2.5);
+  transform: scale(1.5);
 }
