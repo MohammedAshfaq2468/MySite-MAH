@@ -155,8 +155,8 @@ a {
 
 .btn {
   position: relative;
-  display: block;
-  
+  color: #cc154a;
+  width: max-content;
   width: max-content;
   /* background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -193,6 +193,7 @@ a {
   text-decoration: none;
   transform: scale(1.1);
   border:hidden;
+  font-weight: bold;
 }
 
 .rating_heading {
