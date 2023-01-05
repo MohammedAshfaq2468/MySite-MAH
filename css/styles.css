@@ -195,6 +195,55 @@ a {
   border:hidden;
 }
 
+.rating_heading {
+  margin-top: 2rem;
+  font-style: italic;
+  font-family: fantasy;
+  animation: scale-up 1s ease;
+}
+
+@keyframes scale-up 0% {
+  opacity: 1;
+  transform: scale(1);
+}
+
+100% {
+  opacity: 0;
+  transform: scale(.5);
+}
+
+
+
+
+.star_rating {
+  user-select: none;
+
+  animation: slide-up 1s ease;
+  }
+
+  @keyframes slide-up 0% {
+  opacity: 0;
+  transform: translateY(80px);
+  }
+
+  100% {
+  opacity: 1;
+  transform: translateY(0px);
+  }
+
+
+.star {
+  font-size: 3rem;
+  color: #ffcd69;
+  background-color: unset;
+  border: none;
+  padding: 0px 1px;
+}
+
+.star:hover {
+  cursor: pointer;
+}
+
 .divider {
   width: 15%;
   margin: 6% auto 4%;
