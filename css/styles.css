@@ -109,6 +109,7 @@ a {
   position: relative;
   padding: 2%;
   display: block;
+  text-align: center;
 }
 
 .footer-link {
