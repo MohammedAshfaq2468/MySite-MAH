@@ -73,7 +73,7 @@ a {
   /*  margin-right: 40%;
     margin-left: 40%;
     margin: 20px;*/
-  border: 5px double transparent;
+  border: 3px double transparent;
   border-radius: 50%;
   background-image: linear-gradient(white, white), linear-gradient(to right, green, #334756);
   background-origin: border-box;
