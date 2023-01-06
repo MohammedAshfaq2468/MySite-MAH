@@ -124,6 +124,14 @@ a {
   top: 8%;
 }
 
+.desgntion {
+  position: absolute;
+  font-family: 'Galada', cursive;
+  font-size: 150%;
+  margin-top: 0;
+  color: navy;
+  left: 54.40%;
+}
 .bottom-cloud {
   position: absolute;
   left: 20%;
@@ -193,38 +201,41 @@ a {
   animation: scale-up 1s ease;
 }
 
-@keyframes scale-up 0% {
-  opacity: 1;
-  transform: scale(1);
-}
-100% {
-  opacity: 0;
-  transform: scale(.5);
+@keyframes scale-up {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(.5);
+  }
 }
 
 .star_rating {
   user-select: none;
-
   animation: slide-up 1s ease;
-  }
+}
 
-  @keyframes slide-up 0% {
-  opacity: 0;
-  transform: translateY(80px);
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
   }
 
   100% {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
-
+}
 
 .star {
   font-size: 3rem;
   color: #ffcd69;
   background-color: unset;
   border: none;
-  padding: 0px 1px;
+  padding: 0 1px;
 }
 
 .star:hover {
@@ -454,4 +465,70 @@ tbody>:nth-child(2) {
   100% {
     background-size: 650%;
   }
+}
+
+@media screen and (max-width : 600px) and (min-width : 300px) {
+  .bio {
+    width: 16rem;
+    margin: auto;
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-family: 'Berkshire Swash', cursive;
+    color: #3E215D;
+    margin: 0 auto;
+    padding: 3em;
+    font-size: 2rem;
+  }
+
+  .top-container {
+    position: relative;
+    padding-top: 60px;
+    background: linear-gradient(35deg, rgb(85 84 108) 8%, rgb(81 239 247) 60%, rgb(175 102 230)94%);
+    width: 375px;
+  }
+
+  .top-cloud {
+    width: 70px;
+    height: 30px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-top:0;
+  }
+
+  .desgntion {
+    position: absolute;
+    font-family: 'Galada', cursive;
+    font-size: 10px;
+    margin-top: 0;
+    color: navy;
+    left: 62%;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 6%;
+    bottom: 40%;
+    width: 70px;
+    height: 30px;
+  }
+  .mount{
+      width: 180px;
+      height: 120px;
+
+  }
+
+  .imgcrop {
+     margin-left: 0;
+    width: 160px;
+    height: 190px;
+    }
+    .profilepic{
+      width: 160px;
+      height: 190px;
+
+  }
+
 }
