@@ -55,6 +55,7 @@ a {
   position: relative;
   padding-top: 100px;
   background: linear-gradient(35deg, rgb(85 84 108) 8%, rgb(81 239 247) 60%, rgb(175 102 230)94%);
+  background-repeat: repeat;
 }
 
 .profile {
@@ -132,6 +133,7 @@ a {
   color: navy;
   left: 54.40%;
 }
+
 .bottom-cloud {
   position: absolute;
   left: 20%;
@@ -468,10 +470,12 @@ tbody>:nth-child(2) {
 }
 
 @media screen and (max-width : 600px) and (min-width : 300px) {
+
   .bio {
     width: 16rem;
     margin: auto;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
 
   h2 {
@@ -482,53 +486,68 @@ tbody>:nth-child(2) {
     font-size: 2rem;
   }
 
-  .top-container {
-    position: relative;
-    padding-top: 60px;
-    background: linear-gradient(35deg, rgb(85 84 108) 8%, rgb(81 239 247) 60%, rgb(175 102 230)94%);
-    width: 375px;
-  }
-
   .top-cloud {
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 35px;
   }
 
   h1 {
-    font-size: 30px;
-    margin-top:0;
+    width: 250px;
   }
 
   .desgntion {
     position: absolute;
     font-family: 'Galada', cursive;
-    font-size: 10px;
+    font-size: 1.2rem;
     margin-top: 0;
     color: navy;
-    left: 62%;
+    left: 53%;
   }
+
   .bottom-cloud {
     position: absolute;
     left: 6%;
-    bottom: 40%;
-    width: 70px;
-    height: 30px;
+    bottom: 50%;
+    width: 80px;
+    height: 35px;
   }
-  .mount{
-      width: 180px;
-      height: 120px;
 
+  .mount {
+    max-width: 100%;
+    height: 400px;
+  }
+
+  .techavgeek {
+    width: 280px;
+    margin: 1% auto 1%;
   }
 
   .imgcrop {
-     margin-left: 0;
     width: 160px;
     height: 190px;
-    }
-    .profilepic{
-      width: 160px;
-      height: 190px;
-
+    text-align: center;
   }
+
+  .profilepic {
+    width: 160px;
+    height: 190px;
+  }
+
+  .footer-link {
+    margin: 2em 1em;
+    font-size: 1em;
+    color: #FFB830;
+    display: inline-flex;
+  }
+ .profile{
+   padding:6em 0;
+   text-align: center;
+ }
+
+  .tskills{
+    width: 150px;
+    background-size: contain;
+
+   }
 
 }
